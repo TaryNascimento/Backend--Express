@@ -1,7 +1,7 @@
 // routes.js
 const express = require('express');
 const router = express.Router();
-const controller = require('./controller');
+const controller = require('./Controller/controller');
 
 router.get('/', (req, res) => {
     res.send('Bem-vindo à API do Currículo!');
