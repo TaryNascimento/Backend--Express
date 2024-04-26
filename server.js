@@ -16,4 +16,4 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-export default app; // Exportando o app para uso em outros arquivos
+module.exports = app; // Exportando o app para uso em outros arquivos

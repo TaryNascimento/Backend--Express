@@ -1,4 +1,4 @@
-const db = require('./db');
+const db = require('./db').pool; // Importe a propriedade 'pool' do módulo exportado
 
 const getCurriculo = async (req, res) => {
   try {
