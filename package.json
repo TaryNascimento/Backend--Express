@@ -8,14 +8,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/TaryNascimento/curriculoExpress.git"
+      "url": "git+https://github.com/TaryNascimento/api-curriculo.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/TaryNascimento/curriculoExpress/issues"
+      "url": "https://github.com/TaryNascimento/api-curriculo/issues"
     },
-    "homepage": "https://github.com/TaryNascimento/curriculoExpress#readme",
+    "homepage": "https://github.com/TaryNascimento/api-curriculo#readme",
     "dependencies": {
       "dotenv": "^16.4.5",
       "express": "^4.19.2",
