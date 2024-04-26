@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('./db');
@@ -10,10 +9,10 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/', routes); // Usando as rotas definidas no arquivo routes.js
+app.use('/', routes);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-module.exports = app; // Exportando o app para uso em outros arquivos
+export default app;
